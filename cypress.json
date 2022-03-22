@@ -1,0 +1,9 @@
+{
+    "baseUrl": "http://automationpractice.com/index.php",
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 50000,
+   "viewportHeight": 800,
+   "viewportWidth": 1500,
+   "watchForFileChanges":false
+   }
+   
