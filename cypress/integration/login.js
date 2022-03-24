@@ -23,7 +23,7 @@ describe("Given I am on the HomePage", function () {
     //cy.get(login.signInBtnLog).click()
     //cy.get(login.errorMessage).should('be.visible')
 
-    it("Carting - I Should be able to cart items and checkout", function () {
+    it.skip("Carting - I Should be able to cart items and checkout", function () {
 
         cy.get(carting.women).click()
         cy.get(carting.cloth1).click()
