@@ -1,4 +1,4 @@
-import {homePage, login, carting} from "../fixtures/selectors.js";
+import {homePage, login, carting} from "../../cypress/fixtures/selectors.js";
  
 describe("Given I am on the HomePage", function () {
     before(function () {
@@ -16,12 +16,14 @@ describe("Given I am on the HomePage", function () {
     })
 
  
-//it("Login - I Should'nt be able to login with an invalid information", function () {
-   // cy.visit('http://automationpractice.com/index.php?controller=authentication&back=my-account')
-    //cy.get(login.emailFieldLog).type(login.invalidEmailFieldLogTxt)
-    //cy.get(login.passwordFieldLog).type(login.invalidPasswordFieldLogTxt)
-    //cy.get(login.signInBtnLog).click()
-    //cy.get(login.errorMessage).should('be.visible')
+it.skip("Login - I Should'nt be able to login with an invalid information", function () {
+   cy.visit('http://automationpractice.com/index.php?controller=authentication&back=my-account')
+    cy.get(login.emailFieldLog).type(login.invalidEmailFieldLogTxt)
+    cy.get(login.passwordFieldLog).type(login.invalidPasswordFieldLogTxt)
+    cy.get(login.signInBtnLog).click()
+    cy.get(login.errorMessage).should('be.visible')
+
+})
 
     it.skip("Carting - I Should be able to cart items and checkout", function () {
 
@@ -49,4 +51,5 @@ describe("Given I am on the HomePage", function () {
         
 })
 })
+
 

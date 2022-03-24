@@ -89,6 +89,24 @@ export const carting ={
     backToOrderBtn:".button-exclusive",
     backToAccountBtn:".footer_links > :nth-child(1) > .btn > span"
 
-
-    
 }
+
+export const fileUpload ={
+  subjectHead:"#id_contact",
+  subjectHeadTxt:'2',
+  emailField:"#email",
+  emailTxt:"baweci3390@siberpay.com",
+  orderRefrenceField:"#id_order",
+  orderRefrenceFieldTxt:"3310",
+  attachfile:"#fileUpload",
+  messageField:"#message",
+  messageFieldTxt:"I couldn't see where to proceed with making payment. I will be glad if update a payment gateway on the application. Thanks",
+  sendBtn:"#submitMessage > span",
+  SuccessfulMessage:".alert"
+  
+
+
+  
+
+}
+    
