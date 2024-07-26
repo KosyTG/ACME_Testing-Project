@@ -1,1 +1,9 @@
-node_modules
+.idea/
+node_modules/
+log/
+.DS_Store
+.vscode/
+dist/
+results/
+cypress/videos
+cypress/screenshottouch
